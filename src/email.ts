@@ -1,4 +1,4 @@
- function validateEmail(email: string): boolean {
+  export function validateEmail(email: string): boolean {
     if (email.includes(" ")) return false;
 
     const parts = email.split("@");
@@ -12,4 +12,3 @@
     return true;
 }
 
-export {validateEmail};

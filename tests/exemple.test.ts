@@ -1,4 +1,4 @@
-import {validateEmail} from "../src/email.js"
+import { validateEmail } from "../src/email.js";
 
 describe("validateEmail", () => {
 
